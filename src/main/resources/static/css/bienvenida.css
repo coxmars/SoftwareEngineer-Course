@@ -17,11 +17,11 @@ body {
 .datosTestimonio {
 	font-size: 11px !important;
 	font-style: italic;
-	color: #FFF;
+	color: yellow;
 	font-weight: 800;
 }
 
-/* ? MEDIA QUERY MD (tablets, 768px and up)*/
+/* ? MEDIA QUERY MD (tablets, 768px and up)
 @media (max-width: 995px) {
 	.nosotrosC {
 		flex-direction: column;
@@ -31,6 +31,7 @@ body {
 		width: auto !important;
 	}
 }
+*/
 
 .imgB {
 	width: 100%;
@@ -54,15 +55,16 @@ body {
 	text-align: center;
 }
 
-/* ? MEDIA QUERY MD (tablets, 768px and up)*/
+/* ? MEDIA QUERY MD (tablets, 768px and up)
 @media (max-width: 995px) {
 	.h2Img {
 		margin: 10px;
 	}
 }
+*/
 
 .h2texto {
-	color: white !important;
+	color: yellow !important;
 }
 
 .contenedorI {
@@ -83,7 +85,7 @@ body {
 	width: 85%;
 }
 
-/* ? MEDIA QUERY MD (tablets, 768px and up)*/
+/*
 @media (max-width: 995px) {
 	.contenedorIcons {
 		margin: 0 auto;
@@ -97,6 +99,8 @@ body {
 		white-space: nowrap;
 	}
 }
+*/
+
 
 .iconoClothes {
 	width: 170px;
@@ -132,7 +136,7 @@ body {
 
 .centrado {
 	height: 100vh;
-	background: #F8F8F8;
+	background: yellow;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -151,7 +155,7 @@ body {
 	width: 13px;
 	height: 13px;
 	border-radius: 50%;
-	background: #FFB100;
+	background: yellow;
 	animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
@@ -227,6 +231,7 @@ body {
 /* ! Footer */
 .site-footer {
 	border-radius: 20px 20px 0 0;
+	background-color: #0dcaf0;
 }
 
 .contenedorFooterInfo {
@@ -235,6 +240,7 @@ body {
 	margin: 0 auto;
 }
 
+/*
 @media (max-width: 995px) {
 	.contenedorFooterInfo {
 		flex-direction: column;
@@ -245,17 +251,25 @@ body {
 	}
 }
 
+@media only screen and (min-width:578px){
+	.contenedorFooterInfo {
+		flex-wrap: nowrap;
+	}
+}
+*/
+
+
 .footer-menu-link:hover {
-	color: #FFB100 !important;
+	color: yellow !important;
 }
 
 .site-footer-bottom {
 	border-top: 1px solid white;
-	color: #FFF;
+	color: yellow;
 }
 
 .colorAmarillo {
-	color: #FFB100 !important;
+	color: yellow !important;
 	font-weight: 700;
 }
 
